@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Hierarchy Model</title>
+	<link rel="stylesheet" href="css/hierarchy-model.css">
+	<link rel="stylesheet" href="css/hierarchy-model-animations.css">
+</head>
+<body>
+	<ul class="hierarchy-model">
+		<li>
+			<div class="hierarchy-model-content">
+				<button type="button" class="btOtherLevel"> child </button>					
+			</div>
+		</li>
+	</ul>
+	<!--
+	This DIV contains a snippet to be repeated
+	by creating some new hierarchy 
+	-->
+	<div class="hierarchy-model-content-repeat">
+		<li>
+			<div class="hierarchy-model-content hierarchy-model-new">
+				<div class="hierarchy-model-itemMenu">
+					<button type="button" class="btSameLevel"> sibling </button>
+					<button type="button" class="btOtherLevel"> child </button>
+					<button type="button" class="btDelete"> kill me! </button>
+				</div>
+			</div>
+		</li>
+	</div>
+</body>
+<script src="js/libs/jquery.js"></script>
+<script src="js/jquery.hierarchy-model.js"></script>
+</html>

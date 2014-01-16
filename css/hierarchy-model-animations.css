@@ -1,0 +1,26 @@
+/*
+by Di Hercowitz o/
+fb: facebook.com/dihercowitz
+g+: dihercowitz@gmail.com
+in: linkedin.com/in/dihercowitz
+*/
+
+.hierarchy-model-new {-webkit-animation-duration:.9s; -moz-animation-duration:.9s; animation-duration:.9s; 
+					  -webkit-animation-name:newHierarcy; -moz-animation-name:newHierarcy; animation-name:newHierarcy; }
+@-webkit-keyframes newHierarcy {0%{margin-top:-15px; opacity:0; -webkit-box-shadow:0 0 5px 0 #ff0; -moz-box-shadow:0 0 5px 0 #ff0; box-shadow:0 0 5px 3px #ff0;} 50%{margin-top:10px; z-index:9999;} 60%{margin-top:0; z-index:9999; opacity:1;}}
+   @-moz-keyframes newHierarcy {0%{margin-top:-15px; opacity:0; -webkit-box-shadow:0 0 5px 0 #ff0; -moz-box-shadow:0 0 5px 0 #ff0; box-shadow:0 0 5px 3px #ff0;} 50%{margin-top:10px; z-index:9999;} 60%{margin-top:0; z-index:9999; opacity:1;}}
+        @keyframes newHierarcy {0%{margin-top:-15px; opacity:0; -webkit-box-shadow:0 0 5px 0 #ff0; -moz-box-shadow:0 0 5px 0 #ff0; box-shadow:0 0 5px 3px #ff0;} 50%{margin-top:10px; z-index:9999;} 60%{margin-top:0; z-index:9999; opacity:1;}}
+
+.hierarchy-model-deleted .hierarchy-model-itemMenu {left:100%!important;}
+.hierarchy-model-deleted li,
+.hierarchy-model-deleted ul li {-webkit-animation-duration:.9s; -moz-animation-duration:.9s; animation-duration:.9s;
+							    -webkit-animation-name:deletedNode; -moz-animation-name:deletedNode; animation-name:deletedNode;}
+@-webkit-keyframes deletedNode {100% {margin-top:20px; opacity:0; transform: scale(0.8); -ms-transform: scale(0.8); -webkit-transform: scale(0.8);}}
+   @-moz-keyframes deletedNode {100% {margin-top:20px; opacity:0; transform: scale(0.8); -ms-transform: scale(0.8); -webkit-transform: scale(0.8);}}
+        @keyframes deletedNode {100% {margin-top:20px; opacity:0; transform: scale(0.8); -ms-transform: scale(0.8); -webkit-transform: scale(0.8);}}
+
+.hierarchy-model-deleted .hierarchy-model-content {-webkit-animation-duration:.9s; -moz-animation-duration:.9s; animation-duration:.9s;
+												   -webkit-animation-name:thinContent; -moz-animation-name:thinContent; animation-name:thinContent;}
+@-webkit-keyframes thinContent {100% {width:0; padding-left:0; padding-right:0}}
+   @-moz-keyframes thinContent {100% {width:0; padding-left:0; padding-right:0}}
+        @keyframes thinContent {100% {width:0; padding-left:0; padding-right:0}}
